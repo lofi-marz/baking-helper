@@ -1,0 +1,15 @@
+{
+  "butter": {
+    "cup": 227,
+    "tablespoon": 14.2,
+    "teaspoon": 4.73
+  },
+  "sugar": {
+    "cup": 200,
+    "tablespoon": 12.5,
+    "teaspoon": 4.2
+  },
+  "flour": {
+    "cup": 125
+  }
+}
