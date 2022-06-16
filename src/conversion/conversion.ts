@@ -6,14 +6,22 @@ import ingredientMeasurements from './ingredientMeasurements.json';
 import {
     BaseVolumeUnit,
     BaseWeightUnit,
+    isVolumeMeasurement,
+    isVolumeUnit,
+    isWeightUnit,
     Measurement,
+    Unit,
     VolumeMeasurement,
     WeightMeasurement,
 } from './types';
 
-export function convert(value: Measurement, to: BaseVolumeUnit): Measurement {
-    const t: typeof value.unit = 'gram';
-    console.log(t);
+export function convert(value: Measurement, to: Unit): Measurement {
+    if (isVolumeMeasurement(value) && isWeightUnit(to)) {
+        return volumeToWeight(value, to);
+    } else if (isVolumeMeasurement(value) && isVolumeUnit(to)) {
+        return volumeToVolume(value, to);
+    }
+
     return value;
 }
 

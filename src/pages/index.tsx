@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         volumeToWeight({ ingredient: 'butter', value: 1, unit: 'cup' }, 'gram')
     );
     return (
-        <div className="dark h-screen w-full bg-theme-bg-light">
+        <div className="dark h-screen w-screen bg-theme-bg-light">
             <Head>
                 <title>Baker Helper</title>
                 <meta
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="mx-auto h-full w-full md:w-1/2">
+            <div className="h-full w-full md:w-3/4">
                 <ConversionForm />
             </div>
         </div>

@@ -1,9 +1,12 @@
 import ingredients from './ingredientMeasurements.json';
 import volumeLitreValues from './volumeLitreValues.json';
 import weightGramValues from './weightGramValues.json';
+
 export type BaseWeightUnit = keyof typeof weightGramValues;
 
 export type BaseVolumeUnit = keyof typeof volumeLitreValues;
+
+export type Unit = BaseWeightUnit | BaseVolumeUnit;
 
 export type Ingredient = keyof typeof ingredients;
 
@@ -21,16 +24,21 @@ export type WeightMeasurement = {
 
 export type Measurement = VolumeMeasurement | WeightMeasurement;
 
-function isVolumeMeasurement(
-    measurement: Measurement
-): measurement is VolumeMeasurement {
-    if (volumeLitreValues[measurement.unit as BaseVolumeUnit]) return true;
-    return false;
+export function isVolumeUnit(unit: Unit): unit is BaseVolumeUnit {
+    return Object.keys(volumeLitreValues).includes(unit);
 }
 
-function isWeightMeasurement(
+export function isWeightUnit(unit: Unit): unit is BaseWeightUnit {
+    return Object.keys(weightGramValues).includes(unit);
+}
+export function isVolumeMeasurement(
+    measurement: Measurement
+): measurement is VolumeMeasurement {
+    return Object.keys(volumeLitreValues).includes(measurement.unit);
+}
+
+export function isWeightMeasurement(
     measurement: Measurement
 ): measurement is WeightMeasurement {
-    if (volumeLitreValues[measurement.unit as BaseVolumeUnit]) return true;
-    return false;
+    return Object.keys(weightGramValues).includes(measurement.unit);
 }

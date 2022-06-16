@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e5b7ed0-a0dd-4dc7-9daf-a964368a8b78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ConversionForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversion/conversion.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversion/ingredientMeasurements.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversion/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversion/volumeLitreValues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversion/weightGramValues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useWindowDimensions.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+    <list default="true" id="8e5b7ed0-a0dd-4dc7-9daf-a964368a8b78" name="Changes" comment="Commit more often">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ConversionForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConversionForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversion/conversion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversion/conversion.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversion/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversion/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,8 +71,18 @@
       <workItem from="1651250944817" duration="2654000" />
       <workItem from="1652369753214" duration="5421000" />
       <workItem from="1652438118589" duration="25000" />
-      <workItem from="1652438152694" duration="8207000" />
+      <workItem from="1652438152694" duration="17898000" />
+      <workItem from="1652714506144" duration="814000" />
+      <workItem from="1652737030055" duration="2732000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit more often">
+      <created>1652477893943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652477893943</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +98,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit more often" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit more often" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
